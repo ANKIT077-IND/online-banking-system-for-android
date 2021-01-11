@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview15"
+        android:text="Update Information"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text26"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Mobile No.:"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="#000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn10"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="show detail"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:onClick="update"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text28"
+                android:hint="Enter name:"
+                android:layout_marginTop="60dp"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text29"
+                android:layout_marginTop="110dp"
+                android:hint="Enter Father name:"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text30"
+                android:layout_marginTop="160dp"
+                android:hint="Enter Address:"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text31"
+                android:layout_marginTop="210dp"
+                android:hint="Enter Mobile no:"
+                android:textColor="#000"
+                android:inputType="number"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text32"
+                android:layout_marginTop="260dp"
+                android:hint="Enter Adhar number:"
+                android:textColor="#000"
+                android:inputType="number"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/edit_text33"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginRight="30dp"
+                android:hint="Enter date:"
+                android:inputType="none"
+                android:focusable="false"
+                android:textColor="#000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn11"
+                android:text="date picker"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="270dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text34"
+                android:layout_marginTop="360dp"
+                android:hint="Enter Gmail:"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginRight="30dp"/>
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginRight="30dp"/>
+
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="490dp"
+                android:layout_marginRight="30dp"/>
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="540dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text35"
+                android:layout_marginLeft="30dp"
+                android:hint="Enter Balance"
+                android:textColor="#000"
+                android:inputType="number"
+                android:layout_marginTop="590dp"
+                android:layout_marginRight="30dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn12"
+                android:text="Updateaccount"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="640dp"
+                android:layout_marginRight="30dp"
+                android:onClick="UpdateAccount"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="30dp"/>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".openaccount_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview10"
+        android:text="Account opening form"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text7"
+                android:hint="Enter name:"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text8"
+                android:layout_marginTop="70dp"
+                android:hint="Enter Father name:"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text9"
+                android:layout_marginTop="120dp"
+                android:hint="Enter Address:"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text10"
+                android:layout_marginTop="170dp"
+                android:hint="Enter Mobile no:"
+                android:textColor="#000"
+                android:inputType="number"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text11"
+                android:layout_marginTop="220dp"
+                android:hint="Enter Adhar number:"
+                android:textColor="#000"
+                android:inputType="number"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/edit_text12"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginRight="30dp"
+                android:focusable="false"
+                android:hint="Enter date:"
+                android:inputType="none"
+                android:textColor="#000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn4"
+                android:text="date picker"
+                android:layout_marginTop="265dp"
+                android:layout_marginLeft="270dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text13"
+                android:layout_marginTop="310dp"
+                android:hint="Enter Gmail:"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginRight="30dp"/>
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginRight="30dp"/>
+
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginRight="30dp"/>
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="500dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text14"
+                android:layout_marginLeft="30dp"
+                android:hint="Enter Balance"
+                android:textColor="#000"
+                android:inputType="number"
+                android:layout_marginTop="520dp"
+                android:layout_marginRight="30dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn5"
+                android:text="Create account"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="570dp"
+                android:layout_marginRight="30dp"
+                android:onClick="createAccount"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="30dp"/>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
